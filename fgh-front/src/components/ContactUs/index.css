@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Quattrocento&family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.contact-us{
+    display: flex;
+    justify-content: space-between;
+    height: 60vh;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.contact-left{
+    width: 40%;
+}
+
+.contact-left h1 {
+    font-family: "Quattrocento";
+    font-weight: 400;
+    font-size: 80px;
+    margin-bottom: 0;
+}
+
+.contact-left p{
+    font-family: "Poppins";
+    color: #748494;
+    font-size: 24px;
+}
+
+.contact-left a{
+    color: #333F54;
+}
+
+.icon-1{
+    font-size: 35px;
+    margin-right: 10px;
+}
+
+.contact-right{
+    width: 60%;
+    height: 50vh;
+    align-self: center;
+}
+
+.contact-right .contact-form {
+    background: #2A3543;
+    padding: 20px;
+    border-radius: 8px;
+    color: #fff;
+    height: 100%;
+    padding: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  
+.input-field, .textarea-field {
+    height: 30px;
+    width: 100%;
+    margin-bottom: 15px;
+    outline: none;
+    padding-left: 10px;
+  }
+
+.textarea-field{
+    height: 353px;
+    height: 161px;
+}
+  
+.form-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-row .input-field{
+    width: 45%
+}
+
+.contact-form button{
+    border: 0;
+    background-color: #4C9CFD;
+    height: 45px;
+    width: 130px;
+    border-radius: 7px;
+    color: #fff;
+    font-family: 'poppins';
+    font-size: 20px;
+    font-weight: 400;
+}

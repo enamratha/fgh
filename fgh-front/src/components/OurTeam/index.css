@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Quattrocento&family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.profile-card-container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+
+.profile-card-container h1 {
+    font-family: "Quattrocento";
+    font-size: 64px;
+    font-weight: 400;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+  
+  .profile-card {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    margin-top: 20px;
+    width: 100vw;
+  }
+
+  .profile-image{
+    width: 28vw;
+  }
+  
+  .profile-image img {
+    width: 275px;
+    height: 302px;
+    border-radius: 8px;
+  }
+  
+  .profile-details {
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-top: 0;
+  }
+  
+  .profile-details h2 {
+    font-family: "Quattrocento";
+    font-weight: 400;
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .profile-details h2 span {
+    font-size: 18px;
+    font-weight: normal;
+  }
+  
+  .profile-details p {
+    font-size: 14px;
+    font-family: "Poppins";
+    margin-bottom: 0;
+    margin-top: 0;
+    line-height: 1.5;
+  }
+  
+  .profile-details blockquote {
+    background-color: #3574E1;
+    font-style: italic;
+    color: #fff;
+    margin: 0;
+    margin-top: 10px;
+    margin-right: 20;
+    padding: 10px;
+    font-family: "poppins";
+    font-size: 14px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    width: 85%;
+  }
+  
+  .profile-contact a {
+    margin-right: 10px;
+  }
+  
+  .icon-our-team{
+    color: #4379D5;
+    font-size: 20px;
+    margin-right: 2px;
+}
+.profile-bottom{
+    display: flex;
+}
+.founder-contact h5{
+    margin: 0;
+}
+
+.founder-contact div{
+    display: flex;
+}
+
+.team-imgs{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;;
+}
+
+.team-imgs img {
+    width: 30%;
+}
+
+.founder-img{
+  filter: drop-shadow(5px -5px 10px grey)
+}
